@@ -1,3 +1,60 @@
-.wow {
-  width: 100px;
+body {
+  background-image: url(../images/hex2.jpg);
+  margin: 0;
+  padding: 8px;
+}
+
+h1,
+h2,
+h3 {
+  color: #4ddbff;
+  font-family: "Lato", sans-serif;
+  text-shadow: 0px 0px 0px #a6a6a6;
+}
+
+p,
+li,
+span,
+figure,
+input,
+fieldset,
+form,
+a {
+  color: #0091ff;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #01d05b;
+}
+
+.mainbody {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item {
+  /*   border: 1px solid red ; */
+  flex-grow: 1;
+  flex-basis: 0;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+fieldset {
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin: 26px 0;
+}
+
+.headimage {
+  height: 250px;
+}
+
+.footer_r {
+  float: right;
 }
